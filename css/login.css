@@ -1,0 +1,122 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+
+	background-image: linear-gradient(#fdfcef, #c7ede6 50%  );
+
+	margin-left:500px;
+	margin-right:500px;
+
+	border-style: solid;
+	border-width: 5px 2px;
+	border-color: #472b29 ;
+
+	border-radius: 30%;
+
+}
+
+input[type=text], input[type=password] {
+	
+	background-image: linear-gradient(-15deg, #93bc39, #fdfcef );
+  width: 90%;
+  margin-left: 30px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+   border-radius: 15px;;
+}
+
+input[type=submit]{
+	
+	display: none;
+	
+}
+
+.butonas{
+	
+	background-image: linear-gradient(15deg, #fdd73e, #9852f4);
+  color: white;
+  padding: 1px;
+  margin-left: 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 50px;
+	
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+} 
+
+button {
+
+  background-image: linear-gradient(15deg, #fdd73e, #9852f4);
+  color: white;
+  padding: 14px 20px;
+  margin-top: 24px;
+  margin-left: 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+   margin: 5px 0 5px 0;
+}
+
+img.avatar {
+  width: 30%;
+}
+
+label{
+	
+	padding-left:80px;
+	
+}
+
+.container {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	
+	margin-left:100px;
+	margin-right:100px;
+	
+	border-style: solid;
+	border-width: 2px;
+	border-color: #472b29 ;
+	
+	border-radius: 50%;
+	
+	position:relative;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #fdfcef, #c7ede6 80%  );
+  position: fixed;
+  width:100%;
+ 
+}
+
+.topnav button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+  float: left;
+  color: #472b29;
+  text-align: center;
+ 
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.topnav a {
+  float: left;
+  color: #472b29;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+.topnav-left  {
+  float: left;
+  margin-left: 300px ;
+  border-style: solid;
+  border-width: 2px 2px;
+  border-color: #472b29 ;
+  border-radius: 30%;
+}
+
+.topnav-left:hover {
+    background-color: #ddd;
+  color: #472b29;
+}
+
+.topnav-right {
+  float: right;
+    border-style: solid;
+  border-width: 2px 2px;
+  border-color: #472b29 ;
+  border-radius: 30%;
+}
+
+.topnav-right:hover {
+  background-color: red;
+  opacity: 0.8;
+
+   
+}
+
+.logo {
+	position:absolute;
+	z-index:1;
+  background-image: linear-gradient(to right, #c7ede6, #fdfcef, 1% );
+	width:300px;
+
+}
+
+.logo a{
+ 
+  background-image: linear-gradient(to left, #c7ede6, #fdfcef, 1% );
+  float: left;
+  color: #472b29;
+  text-align: center;
+  margin-left: 90px;
+  margin-top:20px;
+  padding:15px;
+  text-decoration: none;
+  font-size: 27px;
+
+
+}
+
+.logo img{
+	 
+	 width:100px;
+
+	 
+}
+ 
